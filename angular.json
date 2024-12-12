@@ -13,7 +13,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
            "outputPath": "docs",
+=======
+            "outputPath": "dist/AstrologyApp",
+>>>>>>> 6e8d6c2ae5608d6cac85c592dc8ead294cab9651
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -37,8 +41,13 @@
                 },
                 {
                   "type": "anyComponentStyle",
+<<<<<<< HEAD
                   "maximumWarning": "500kb",
                   "maximumError": "900kb"
+=======
+                  "maximumWarning": "2kb",
+                  "maximumError": "6kb"
+>>>>>>> 6e8d6c2ae5608d6cac85c592dc8ead294cab9651
                 }
               ],
               "fileReplacements": [
